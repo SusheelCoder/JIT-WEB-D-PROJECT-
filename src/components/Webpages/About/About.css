@@ -48,7 +48,7 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-.aboutCol p{
+.aboutCol p, li{
     font-size: 0.7rem;
     opacity: 0.7;
     text-align: justify;
@@ -58,5 +58,7 @@ tr:nth-child(even) {
     font-size: 0.7rem;
     
 }
+
+
 
 
