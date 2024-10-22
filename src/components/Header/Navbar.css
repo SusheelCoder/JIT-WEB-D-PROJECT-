@@ -1,0 +1,41 @@
+#navDiv{
+    position: sticky;
+    top: 0;
+    background-color: #defca4;
+    color: #888;
+    font-size: 3rem;
+    font-weight: 500;
+    z-index: 10;
+}
+
+#basic-navbar-nav{
+    color: #888;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#home{
+    color: #888;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    &:hover{
+        color: red;
+    }
+}
+
+.dropdown-item{
+    color: #888 !important;
+    font-size: 0.7rem;
+    transition: all 0.3s ease;
+    
+    
+    
+}
+
+.dropdown-item:hover{
+    color: black !important;
+    transform: translateX(5%);
+    background-color: transparent !important;
+    
+}

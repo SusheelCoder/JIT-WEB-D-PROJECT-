@@ -1,0 +1,62 @@
+.aboutDiv{
+    height: 25vh;
+    background-color: #353535;
+    display: grid;
+    place-items: center;
+    margin-bottom: 2rem;
+    h1{
+        color: white;
+    }
+}
+
+.aboutH2{
+    font-size: 1.5rem;
+    color: #E60042;
+    margin: 1.6rem 0;
+    &::after{
+        content: '';
+        display:block;
+        width: 100%;
+        height: 2px;
+        background-color: #E60042;
+        margin-top: 5px;
+    }
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutCol h3{
+    margin: 0.3rem 0;
+    font-size: 1.2rem;
+}
+table{
+    
+    border-collapse: collapse;
+    border-spacing: 0; 
+    
+}
+
+td {
+    padding: 0.5rem;
+    width: 11rem;
+    display: table-cell;
+    border: 1px solid #ddd;
+    opacity: 0.7;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.aboutCol p{
+    font-size: 0.7rem;
+    opacity: 0.7;
+    text-align: justify;
+}
+
+.aboutCol table{
+    font-size: 0.7rem;
+    
+}
+
+

@@ -1,0 +1,10 @@
+.links{
+    padding: 1rem;
+}
+
+.linksDiv{
+    background-color: #E60042;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+.footerh{
+    color: white;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    &::after{
+        content: '';
+        display:block;
+        width: 20%;
+        height: 2px;
+        background-color: #E60042;
+        margin-top: 5px;
+    }
+}
+
+.footerh~p{
+    color: white;
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
+
+.footerCol{
+    padding: 0 2rem;
+    text-align: justify;
+
+}
+
