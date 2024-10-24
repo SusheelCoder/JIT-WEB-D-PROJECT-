@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -14,11 +15,11 @@ export default function Nav1() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
           
-            <Nav.Link href="#home" id="home"> <FontAwesomeIcon icon={faHouse} /> HOME</Nav.Link>
+            <Nav.Link href="#home" id="home"> <Link to="/"><FontAwesomeIcon icon={faHouse} /> HOME</Link></Nav.Link>
             
             <NavDropdown title="ABOUT US" id="basic-nav-dropdown">
-              <NavDropdown.Item>ABOUT JIT</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">MISSION AND VISION</NavDropdown.Item>
+              <NavDropdown.Item><Link to="/about">ABOUT JIT</Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2"><Link to="/mission">MISSION AND VISION</Link></NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">DIRECTOR MESSAGE</NavDropdown.Item>
             </NavDropdown>
 

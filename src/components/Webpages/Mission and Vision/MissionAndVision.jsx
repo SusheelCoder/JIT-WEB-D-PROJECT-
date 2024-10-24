@@ -2,9 +2,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import mission from "../../../assets/mission.png"
+import Footer from "../../Footer/Footer";
+import Header from "../../Header/Header";
 export default function MissionAndVision(){
     return(
         <>
+            <Header/>
             <div className="aboutDiv"><h1>Mission &amp; Vision</h1></div>
             <Container style={{marginBottom:'1rem'}}>
             
@@ -30,6 +33,7 @@ export default function MissionAndVision(){
                 </Row>
 
             </Container>
+            <Footer/>
         </>
     )
 }

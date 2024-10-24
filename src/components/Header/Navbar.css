@@ -14,8 +14,9 @@
     font-weight: 500;
 }
 
-#home{
+#home, #home a{
     color: #888;
+    text-decoration: none;
     font-size: 0.9rem;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -24,18 +25,18 @@
     }
 }
 
-.dropdown-item{
-    color: #888 !important;
+.dropdown-item , .dropdown-item a{
+    text-decoration: none;
+    color: #888;
     font-size: 0.7rem;
     transition: all 0.3s ease;
-    
+    &:hover{
+        color: black !important;
+        transform: translateX(5%);
+        background-color: transparent !important;
+        
+    }
     
     
 }
 
-.dropdown-item:hover{
-    color: black !important;
-    transform: translateX(5%);
-    background-color: transparent !important;
-    
-}

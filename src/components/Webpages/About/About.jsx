@@ -3,9 +3,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import './About.css'
+import Footer from "../../Footer/Footer";
 export default function Main(){
     return (
         <>
+            <Header/>
             <div className="aboutDiv"><h1>About Us</h1></div>
             <Container style={{marginBottom:'1rem'}}>
             
@@ -29,6 +31,7 @@ export default function Main(){
                 </Row>
 
             </Container>
+            <Footer/>
         </>
     )
 }
