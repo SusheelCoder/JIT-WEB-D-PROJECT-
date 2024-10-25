@@ -7,7 +7,7 @@ import ContactUs from './ContactUs';
 import ImportantLinks from './ImportantLinks';
 export default function Footer(){
     return(
-        <div style={{backgroundColor:"#353535", paddingTop:'1.5rem', marginBottom:'1rem'}}>
+        <div style={{backgroundColor:"#353535", paddingTop:'1.5rem'}}>
             <Container>
                 <Row className="footerRow" >
                     <Col className="footerCol" xl={4} md={6}>

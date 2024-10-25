@@ -27,12 +27,12 @@
 
 .dropdown-item , .dropdown-item a{
     text-decoration: none;
-    color: #888;
+    color: #888 !important;
     font-size: 0.7rem;
     transition: all 0.3s ease;
     &:hover{
         color: black !important;
-        transform: translateX(5%);
+        transform: translateX(3%);
         background-color: transparent !important;
         
     }

@@ -1,9 +1,9 @@
-import Header from "../../Header/Header";
+import Header from "../../../Header/Header";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import './About.css'
-import Footer from "../../Footer/Footer";
+import Footer from "../../../Footer/Footer";
 export default function Main(){
     return (
         <>
@@ -22,10 +22,12 @@ export default function Main(){
                     <Col className="aboutCol" xl={4} >
                         <h3>Opening Hours</h3>
                         <table border={1}>
-                            <tr><td>Monday - Thursday</td> <td>9.00 - 20.00</td></tr>
-                            <tr><td>Friday</td> <td>9.00 - 16.00</td></tr>
-                            <tr><td>Saturday</td> <td>9.00 - 14.00</td></tr>
-                            <tr><td>Sunday</td> <td>Closed</td></tr>
+                            <tbody>
+                                <tr><td>Monday &#45; Thursday</td><td>9.00 &#45; 20.00</td></tr>
+                                <tr><td>Friday</td><td>9.00 &#45; 16.00</td></tr>
+                                <tr><td>Saturday</td><td>9.00 &#45; 14.00</td></tr>
+                                <tr><td>Sunday</td><td>Closed</td></tr>
+                            </tbody>
                         </table>
                     </Col>
                 </Row>

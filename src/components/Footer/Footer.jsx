@@ -3,10 +3,10 @@ import BottomBar from "./Files/BottomBar";
 
 export default function Footer(){
     return (
-        <>
-        <QuickLinks/>
-        <BottomBar/>
+        <div>
+            <QuickLinks/>
+            <BottomBar/>
         
-        </>
+        </div>
     )
 }

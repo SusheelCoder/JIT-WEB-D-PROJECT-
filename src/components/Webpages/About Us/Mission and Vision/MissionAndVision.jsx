@@ -1,9 +1,10 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import mission from "../../../assets/mission.png"
-import Footer from "../../Footer/Footer";
-import Header from "../../Header/Header";
+import mission from "../../../../assets/mission.png"
+import Footer from "../../../Footer/Footer";
+import Header from "../../../Header/Header";
+import Image from 'react-bootstrap/Image';
 export default function MissionAndVision(){
     return(
         <>
@@ -13,8 +14,8 @@ export default function MissionAndVision(){
             
                 <h2 className="aboutH2">Mission &amp; Vision</h2>
                 <Row>
-                    <Col>
-                        <img src={mission} alt="mission and vision"/>
+                    <Col xs={6} md={4}>
+                        <Image src={mission} fluid/>
                     </Col>
                     <Col className="aboutCol" xl={6}>
                        <h3>Our Mission &amp; Vision</h3> 

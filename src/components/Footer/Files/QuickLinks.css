@@ -3,6 +3,7 @@
 }
 
 .linksDiv{
+    margin-top: 3rem;
     background-color: #E60042;
     display: flex;
     justify-content: center;

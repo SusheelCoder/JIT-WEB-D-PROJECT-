@@ -53,7 +53,7 @@ div{
     #horizontalLine{
         margin: 0;
         padding: 0;
-        width: 110%;
+        width: 100%;
         border-bottom: 2px solid #5fba34;
     }
 
