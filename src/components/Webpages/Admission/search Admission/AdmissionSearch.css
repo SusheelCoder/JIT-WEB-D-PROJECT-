@@ -1,0 +1,41 @@
+
+.searchCol div{
+    
+    margin-bottom: 2rem;
+}
+.searchCol form{
+    display: flex;
+    justify-content: baseline;
+}
+.searchCol input[type='text']{
+   
+    height: 1.7rem;
+    width: 17rem;
+    margin-right: 1rem;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    color: #555;
+    font-size: 0.7rem;
+    
+    &:focus{
+       box-shadow: 0 0 2px #646cff;
+        backdrop-filter: blur(10px);
+    }
+    
+}
+
+.searchCol button{
+    border: none;
+    height: 1.7rem;
+    width: 1.7rem;
+    border-radius: 0.1rem;
+    svg{
+        opacity: 0.5;
+        font-size: 0.8rem;
+        transition: all 0.3s ease;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}

@@ -30,9 +30,9 @@ export default function Nav1() {
             </NavDropdown>
 
             <NavDropdown title="ADMISSION" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">APPLY ONLINE</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/reg_form_search">ADMISSION SEARCH</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">CERTIFICATE VERIFICATION</NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link href="#home">GALLERY</Nav.Link>

@@ -1,11 +1,37 @@
 .links{
     padding: 1rem;
+ 
+  
+    transition: all 0.4s ease;
+    &::after{
+        content: '';
+        display:block;
+        width: 0%;
+        height: 2px;
+        background-color: #fff;
+        margin-top: 5px;
+        transition: all 0.4s ease;
+    }
 }
+
+.links:hover{
+
+    opacity: 1;
+
+    &::after{
+        width: 100%;
+    }
+}
+
+
+
 
 .linksDiv{
     margin-top: 3rem;
+    
     background-color: #E60042;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+

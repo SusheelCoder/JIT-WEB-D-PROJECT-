@@ -7,6 +7,7 @@ import LandingPage from './components/LandingPage';
 import ShortTerm from './components/Webpages/Courses/Short Term Courses/ShortTerm';
 import LongTerm from './components/Webpages/Courses/Long Term Courses/LongTerm';
 import JITCourses from './components/Webpages/Courses/JIT Courses/JITCourses';
+import AdmissionSearch from './components/Webpages/Admission/search Admission/AdmissionSearch';
 function App() {
 
   const router = createBrowserRouter([
@@ -20,6 +21,7 @@ function App() {
     {path: '/short-term-courses', element:<ShortTerm/>},
     {path: '/long-term-courses', element:<LongTerm/>},
     {path: '/jit-courses', element:<JITCourses/>},
+    {path: '/reg_form_search', element:<AdmissionSearch/>},
   ]);
   return (
     
