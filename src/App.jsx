@@ -8,6 +8,7 @@ import ShortTerm from './components/Webpages/Courses/Short Term Courses/ShortTer
 import LongTerm from './components/Webpages/Courses/Long Term Courses/LongTerm';
 import JITCourses from './components/Webpages/Courses/JIT Courses/JITCourses';
 import AdmissionSearch from './components/Webpages/Admission/search Admission/AdmissionSearch';
+import CertificateVerify from './components/Webpages/Admission/Certificate Verification/CertificateVerify';
 function App() {
 
   const router = createBrowserRouter([
@@ -22,6 +23,7 @@ function App() {
     {path: '/long-term-courses', element:<LongTerm/>},
     {path: '/jit-courses', element:<JITCourses/>},
     {path: '/reg_form_search', element:<AdmissionSearch/>},
+    {path: '/certificate', element:<CertificateVerify/>},
   ]);
   return (
     
