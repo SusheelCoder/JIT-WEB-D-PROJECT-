@@ -13,7 +13,7 @@ export default function Footer(){
                     <Col className="footerCol" xl={4} md={6}>
                         <h3 className="footerh">ABOUT JIT</h3>
                         <p>
-                        JIT is dedicated to the "EDUCATION FOR ALL" goal. AGIS works towards providing educational infrastructure and technology to every corner of Indian Subcontinent to catalyses the outreach of education and is committed to the creation of sustainable social infrastructure.
+                        JIT is dedicated to the "EDUCATION FOR ALL" goal. JIT works towards providing educational infrastructure and technology to every corner of Indian Subcontinent to catalyses the outreach of education and is committed to the creation of sustainable social infrastructure.
                         </p>
                     </Col>
                     <Col className="footerCol" xl={4} md={6}>

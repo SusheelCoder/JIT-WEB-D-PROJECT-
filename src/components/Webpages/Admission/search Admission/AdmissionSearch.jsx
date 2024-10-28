@@ -9,7 +9,7 @@ import './AdmissionSearch.css'
 import { useState } from 'react';
 export default function AdmissionSearch(){
 
-    const[certificateNum, setCertificateNum] = useState("");
+    const[certificateNum, setCertificateNum]  = useState("");
     function handleCertificateNum(e){
         setCertificateNum(e.target.value);
     }

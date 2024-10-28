@@ -28,7 +28,7 @@ export default function MissionAndVision(){
                         <li>Provide computer education to the highest unreached people and promote community participation for local development.</li>
                         <li>Provide specific need-based computer education and training opportunities for continuous professional development and skill up gradation to in service professionals.</li>
                        </ul>
-                       <p>ARYVRAT GLOBAL INSTITUTE OF SCIENCE PRIVATE LIMITED is an ISO 9001:2015 certified company, the initiator of Vishwa Computer Sakshartha Mission shall provide seamless access to sustainable and learner centric quality education, skill up gradation and training to all by using innovative technologies and methodologies for computer literacy programmed and ensuring convergence of existing systems for massive human resources required for promoting integrated national development and global understanding. Thus we have :</p>
+                       <p>JYOTI INSTITUTE OF TECHNOLOGY PRIVATE LIMITED is an ISO 9001:2015 certified company, the initiator of Susheel Computer Sakshartha Mission shall provide seamless access to sustainable and learner centric quality education, skill up gradation and training to all by using innovative technologies and methodologies for computer literacy programmed and ensuring convergence of existing systems for massive human resources required for promoting integrated national development and global understanding. Thus we have :</p>
                     </Col>
                     
                 </Row>
