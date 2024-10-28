@@ -15,8 +15,8 @@ export default function Main(){
                 <Row>
                     <Col className="aboutCol" xl={6}>
                        <h3>Welcome to JIT</h3> 
-                       <p>AGIS works towards providing educational infrastructure and technology to every corner of Indian Subcontinent to catalyses the outreach of education and is committed to the creation of sustainable social infrastructure.</p>
-                       <p>AGIS feels pleasure to provide various traditional, vocational, and job oriented technical & technological courses recognized by HRD (GOVT. OF INDIA), UGC, and approved by DEC being an authorized study centre of UGC recognized universities.</p>
+                       <p>JIT works towards providing educational infrastructure and technology to every corner of Indian Subcontinent to catalyses the outreach of education and is committed to the creation of sustainable social infrastructure.</p>
+                       <p>JIT feels pleasure to provide various traditional, vocational, and job oriented technical & technological courses recognized by HRD (GOVT. OF INDIA), UGC, and approved by DEC being an authorized study centre of UGC recognized universities.</p>
                        <p>In present global context demands synthesis of a new paradigm of education and development through universalization and integration of information Technology in teaching, learning and educational management processes AGIS is authorized testing centre of MICROSOFT to provide MOS & MTA certification of global values on the basis of ON- line examination.</p>
                     </Col>
                     <Col className="aboutCol" xl={4} >

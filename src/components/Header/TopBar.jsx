@@ -18,7 +18,7 @@ export default function TopBar(){
                 </div>
                 <div className='mail  firstIcon'>
                     <FontAwesomeIcon className='icon' icon={faEnvelope}/>
-                    <a href='#'>123@gmail.com</a>
+                    <a href='#'>susheelkumarp99@gmail.com</a>
                 </div>
                 <div className='login firstIcon'>
                     <FontAwesomeIcon className='icon' icon={faSuitcase} />

@@ -9,9 +9,15 @@ import './AdmissionSearch.css'
 import { useState } from 'react';
 export default function AdmissionSearch(){
 
+
+    const[certificateNum, setCertificateNum]  = useState("");
+    function handleCertificateNum(e){
+        setCertificateNum(e.target.value);
+    }
     const[registrationNum, setRegistrationNum] = useState("");
     function handleRegistrationNum(e){
         setRegistrationNum(e.target.value);
+
     }
 
     function handleSearch(e){
