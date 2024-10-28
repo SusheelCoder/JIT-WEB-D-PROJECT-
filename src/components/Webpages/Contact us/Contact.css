@@ -1,0 +1,52 @@
+.contactCol div{
+    background-color: #f1f1f1;
+    padding: 0.7rem 1rem;
+    margin-bottom: 0.8rem;
+    border-radius: 0.5rem;
+    cursor: default;
+    transition: all 0.3s;
+   
+    &::after{
+        content: '';
+        display:block;
+        width: 0%;
+        height: 2px;
+        background-color: #E60042;
+        margin-top: 5px;
+        transition: all 0.4s linear;
+    }
+
+
+    
+}
+
+.contactCol div:hover{
+    &::after{
+        
+        width: 100%;
+        background-color: #E60042;
+       
+        
+    }
+}
+
+.contactCol div h3{
+    font-size: 1.3rem;
+        
+}
+
+.contactCol div p{
+    font-size: 0.9rem;
+    /* font-weight: 500; */
+    a{
+        text-decoration: none;
+        color: black;
+
+    }
+}
+
+@media (max-width: 769px){
+    .contactCol{
+        margin-top: 5rem;
+    }
+}

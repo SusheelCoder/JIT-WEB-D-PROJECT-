@@ -1,0 +1,50 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.thumbnail {
+    max-width: 300px;
+    max-height: 300px;
+    cursor: pointer;
+    transition: transform 0.2s linear;
+    border-radius: 0.5rem;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.large-image {
+    max-width: 90%;
+    max-height: 90%;
+    
+}
+
+.imgDiv{
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: all 0.2s linear;
+    &:hover{
+        transform: scale(0.99);
+        transform-origin: center;
+    }
+ 
+}

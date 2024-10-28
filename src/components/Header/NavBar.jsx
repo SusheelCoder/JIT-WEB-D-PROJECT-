@@ -32,11 +32,11 @@ export default function Nav1() {
             <NavDropdown title="ADMISSION" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">APPLY ONLINE</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/reg_form_search">ADMISSION SEARCH</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">CERTIFICATE VERIFICATION</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/certificate">CERTIFICATE VERIFICATION</NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link href="#home">GALLERY</Nav.Link>
-            <Nav.Link href="#home">CONTACT US</Nav.Link>
+            <Nav.Link as={Link} to="/gallery">GALLERY</Nav.Link>
+            <Nav.Link as={Link} to="/contact">CONTACT US</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
