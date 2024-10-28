@@ -1,8 +1,9 @@
 .links{
     padding: 1rem;
- 
+
+    opacity: 0.8;
   
-    transition: all 0.4s ease;
+    transition: all 0.2s ease-in-out;
     &::after{
         content: '';
         display:block;
@@ -15,7 +16,7 @@
 }
 
 .links:hover{
-
+    transform: scale(1.2);
     opacity: 1;
 
     &::after{
@@ -28,7 +29,6 @@
 
 .linksDiv{
     margin-top: 3rem;
-    
     background-color: #E60042;
     display: flex;
     justify-content: center;
