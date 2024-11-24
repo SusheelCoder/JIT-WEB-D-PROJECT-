@@ -1,0 +1,67 @@
+[33mcommit 6a1efd1072c544ea4c09dba2cc0d2fcd508e4b47[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: fd20953 2aef2df
+Author: Gaurav <gauravkumarop3@gmail.com>
+Date:   Tue Oct 29 00:58:28 2024 +0530
+
+    adding gallery and contact us
+
+[33mcommit fd20953f5206640b3272e3ff566cbfc04de051ee[m
+Author: Gaurav <gauravkumarop3@gmail.com>
+Date:   Tue Oct 29 00:40:00 2024 +0530
+
+    adding gallery and contact us
+
+[33mcommit 2aef2dff622468435cae5c948391a0f8c90fce00[m
+Merge: 98af96e 0ea13b0
+Author: Susheel <susheelkumarp99@gmail.com>
+Date:   Mon Oct 28 19:08:42 2024 +0530
+
+    First commit
+
+[33mcommit 98af96e433217edb1254ddd6fd08026597eee9cd[m
+Author: Susheel <susheelkumarp99@gmail.com>
+Date:   Mon Oct 28 17:37:37 2024 +0530
+
+    Added img in Slider
+
+[33mcommit 0ea13b00eb5a8740e92d99fc62a278bca2528e09[m
+Author: Gaurav <gauravkumarop3@gmail.com>
+Date:   Sun Oct 27 20:23:15 2024 +0530
+
+    adding Certificate verification
+
+[33mcommit e62fed9963ccb1de7836a2df9fc27c7ddebed0e3[m
+Author: Gaurav <gauravkumarop3@gmail.com>
+Date:   Sat Oct 26 23:06:21 2024 +0530
+
+    adding Search Admission certificate
+
+[33mcommit add0e1b7c35b8f01820a6181d1d433ca9907ca67[m
+Author: Gaurav <gauravkumarop3@gmail.com>
+Date:   Fri Oct 25 21:08:12 2024 +0530
+
+    updating courses
+
+[33mcommit 62a86d65aaada3a933ac41566190259c5d8db345[m
+Author: Gaurav <gauravkumarop3@gmail.com>
+Date:   Thu Oct 24 20:23:32 2024 +0530
+
+    Adding routing
+
+[33mcommit 60ee12425481dd46642528977d2e2f202721cb65[m
+Author: Gaurav <gauravkumarop3@gmail.com>
+Date:   Tue Oct 22 17:45:33 2024 +0530
+
+    adding vision and mission
+
+[33mcommit 8af03b1e42ccdb373fd6eb79a63154157d506f15[m
+Author: Gaurav <gauravkumarop3@gmail.com>
+Date:   Tue Oct 22 17:43:55 2024 +0530
+
+    adding vision and mission
+
+[33mcommit 88ae6d7d98f660b2fcb679a93bb019748d3c02e3[m
+Author: Gaurav <gauravkumarop3@gmail.com>
+Date:   Tue Oct 22 17:13:42 2024 +0530
+
+    first Commit
