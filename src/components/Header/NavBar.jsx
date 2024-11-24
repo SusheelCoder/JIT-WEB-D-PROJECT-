@@ -6,11 +6,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faHouse} from '@fortawesome/free-solid-svg-icons'
+import mjit from '../../assets/logo mjit.jpg';
 export default function Nav1() {
   return (
     <Navbar expand="lg" id="navDiv">
       <Container >
-        <Navbar.Brand href="#home"><img src='#'/></Navbar.Brand>
+        <Navbar.Brand href="#home"><img src={mjit}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -30,7 +31,7 @@ export default function Nav1() {
             </NavDropdown>
 
             <NavDropdown title="ADMISSION" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">APPLY ONLINE</NavDropdown.Item>
+              <NavDropdown.Item as ={Link} to ="/applyOnline">APPLY ONLINE</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/reg_form_search">ADMISSION SEARCH</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/certificate">CERTIFICATE VERIFICATION</NavDropdown.Item>
             </NavDropdown>

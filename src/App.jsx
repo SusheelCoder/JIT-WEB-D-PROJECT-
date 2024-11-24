@@ -11,6 +11,7 @@ import AdmissionSearch from './components/Webpages/Admission/search Admission/Ad
 import CertificateVerify from './components/Webpages/Admission/Certificate Verification/CertificateVerify';
 import Gallery from './components/Webpages/Gallery/Gallery';
 import Contact from './components/Webpages/Contact us/Contact';
+import ApplyOnline from './components/Webpages/Admission/applyOnlineForm/Applyonline';
 function App() {
 
   const router = createBrowserRouter([
@@ -27,7 +28,10 @@ function App() {
     {path: '/reg_form_search', element:<AdmissionSearch/>},
     {path: '/certificate', element:<CertificateVerify/>},
     {path: '/gallery', element:<Gallery/>},
-    {path: '/contact', element:<Contact/>}
+    {path: '/contact', element:<Contact/>},
+    {path: '/applyOnline', element:<ApplyOnline/>},
+    
+    
   ]);
   return (
     
