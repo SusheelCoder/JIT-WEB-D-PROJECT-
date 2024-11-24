@@ -26,19 +26,18 @@ export default function Contact(){
                     <div>
                         <FontAwesomeIcon icon={faLocationDot} />
                         <h3>Address</h3>
-                        <p>AGIS, Sumitra Katra, Rajatalab,
-                        Varanasi, 221311</p>
+                        <p>JIT NEAR PUNJAB NATIONAL BANK , 231501</p>
                     </div>
                     <div>
                         <FontAwesomeIcon icon={faPhone} />
                         <h3>Phone</h3>
-                        <p>+91-7309399226</p>
+                        <p>+91-7523936078</p>
                     </div>
 
                     <div>
                         <FontAwesomeIcon icon={faEnvelope} />
                         <h3>EMAIL</h3>
-                        <p><a href="mailto:123@gmail.com">123@gmail.com</a></p>
+                        <p><a href="mailto:123@gmail.com">susheelkumarp99@gmail.com</a></p>
                     </div>
                 </Col>
             </Row>
